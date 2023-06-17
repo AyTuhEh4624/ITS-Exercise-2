@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <style>
-     html{
-        background-image: url("floorplan.gif");
-        background-repeat: no-repeat;
-        background-size: 25% 50%;
-        background-attachment: fixed;
-        background-position: center;
+     .center{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 50%;     
      }
-  </style>
+</style>
+<map name="floorplanmap">
+     <area shape = "rect" coords="550, 0, 800, 400" href="master.html">
+     <area shape = "rect" coords="0, 0, 250, 450" href="dining.htm">
+     <area shape = "rect" coords="251, 0, 549, 450" href="living.htm">
+</map>
 <html>
    <header>
       <h1>REAL LIVING Real Estate</h1>
    </head>
 
-   <nav>
-      
-   </nav>
-
    <body>
+     <section>
+          <img src="floorplan.gif" class="center" usemap="#floorplanmap">
+     </section>
       <section>
-
          <p><a href="ex2.html">page 1</a></p>
       </section>
 
