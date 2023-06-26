@@ -1,13 +1,13 @@
 body {
-    background-color: #526D82;
+    background-color: white;
 }
 
 p {
-    color: #DDE6ED;
+    color: black;
 }
 
 .roomtype {
    font-size: 50px;
-   color: #DDE6ED;
+   color: black;
 }
 
